@@ -1,0 +1,23 @@
+// Modular Scale
+
+$ratio: 1.618;
+$base-size: 14px 44px;
+
+// Vertical Rythm
+
+$base-font-size: ms(0);
+$base-line-height: ms(1);
+
+
+@include establish-baseline;
+
+body { @include adjust-font-size-to(ms(0)); }
+h1 { @include adjust-font-size-to(ms(4)); }
+h2 { @include adjust-font-size-to(ms(3)); }
+h3 { @include adjust-font-size-to(ms(2)); }
+
+small { @include adjust-font-size-to(ms(-1)); }
+
+a {
+	text-decoration: none;
+}

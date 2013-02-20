@@ -1,0 +1,21 @@
+<% wrap_layout :layout do %>
+
+<div id="page">	
+	<div id="header">
+		<section>
+			<%= partial "layouts/partials/header" %>
+		</section>
+	</div>
+	<div id="main">
+		<section>
+			<%= yield %>
+		</section>
+	</div>
+	<div id="footer">
+		<section>
+			<%= partial "layouts/partials/footer" %>
+		</section>
+	</div>
+</div>
+
+<% end %>
