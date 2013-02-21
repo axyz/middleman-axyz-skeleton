@@ -100,10 +100,9 @@ textarea {
 
 @include blueprint;
 
-
+@import "colors";
 @import "typography";
 @import "layout";
-@import "colors";
 
 
 
