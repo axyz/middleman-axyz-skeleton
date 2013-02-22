@@ -3,7 +3,6 @@ The axyz Middleman Skeleton
 
 Concepts
 --------
-
 - golden ratio based modular scale typography, baseline, responsive grid system(susy)
 - color palette based on solarized
 - semantic approach:
@@ -16,7 +15,6 @@ Concepts
 
 Installation
 ------------
-
 - make sure to have:
 	- ruby
 	- gem install middleman
@@ -26,7 +24,6 @@ Installation
 
 Usage
 -----
-
 - cd my-new-project
 - middleman server
-- open on browser http://127.0.0.1:4567
+- open browser to http://127.0.0.1:4567
