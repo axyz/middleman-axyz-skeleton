@@ -93,18 +93,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 @import "compass";
 @import "blueprint";
+@include blueprint;
 @import "susy";
 @import "modular-scale";
-
-@include blueprint;
 
 @import "colors";
 @import "typography";
 @import "layout";
-
-
 
 
 

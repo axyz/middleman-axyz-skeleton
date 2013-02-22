@@ -10,8 +10,8 @@ $grid-padding: $gutter-width;
 
 #page {
     @include container;
-    @include susy-grid-background;
     @include set-container-width;
+//    @include susy-grid-background;
 
     #header { @include span-columns(3,3); }
     #main { @include span-columns(3 omega, 3); }
@@ -19,7 +19,6 @@ $grid-padding: $gutter-width;
 
     @include at-breakpoint(480px 5) {
         @include set-container-width;
-        @include susy-grid-background;
 
         #header { @include span-columns(5,5); }
         #main { @include span-columns(5 omega, 5); }
@@ -28,7 +27,6 @@ $grid-padding: $gutter-width;
 
     @include at-breakpoint(600px 5) {
         @include set-container-width;
-        @include susy-grid-background;
 
         #header { @include span-columns(5,5); }
         #main { @include span-columns(5 omega, 5); }
@@ -37,7 +35,6 @@ $grid-padding: $gutter-width;
 
     @include at-breakpoint(768px 7) {
         @include set-container-width;
-        @include susy-grid-background;
 
         #header { @include span-columns(7,7); }
         #main { @include span-columns(7 omega, 7); }
@@ -46,7 +43,6 @@ $grid-padding: $gutter-width;
 
     @include at-breakpoint(992px 9) {
         @include set-container-width;
-        @include susy-grid-background;
 
         #header { @include span-columns(9,9); }
         #main { @include span-columns(9 omega, 9); }
@@ -55,7 +51,6 @@ $grid-padding: $gutter-width;
 
     @include at-breakpoint(1382px 11) {
         @include set-container-width;
-        @include susy-grid-background;
 
         #header { @include span-columns(11,11); }
         #main { @include span-columns(11 omega, 11); }
