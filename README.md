@@ -1,7 +1,7 @@
 The axyz Middleman Skeleton
 ===========================
 
-- golden ratio control modular scale, baseline, responsive grid system(susy)
+- golden ratio based modular scale typography, baseline, responsive grid system(susy)
 - color palette based on solarized
 - semantic approach:
 	- erb layouts to preserve compatibility with raw html
