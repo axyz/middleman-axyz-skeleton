@@ -4,6 +4,8 @@ The axyz Middleman Skeleton
 Concepts
 --------
 
+- HTL5 Boilerplate
+
 - golden ratio based modular scale typography, baseline, responsive grid system(susy)
 
 - color palette based on solarized
